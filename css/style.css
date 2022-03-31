@@ -1,5 +1,10 @@
 /* HEADER */
 /* top */
+header{
+    position: fixed;
+    width: 100%;
+}
+
 .ms_bg-color{
     background-color: black;
 }
@@ -13,6 +18,7 @@
 /* bottom */
 .ms_nav{
     line-height: 80px;
+    background-color: white;
 }
 
 /* column left */
@@ -88,5 +94,26 @@
     height: auto;
     border-radius: 20px;
 }
+
+/* playstation 5 */
+.section-3{
+    padding: 3em 0;
+}
+
+.ms_text-play5 > p{
+    color: #3f3ff2;
+}
+
+.ms_text-play5 h2{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.ms_play5-paragraph{
+    color: gray;
+    font-size: 1.8em;
+}
+
+
 
 
