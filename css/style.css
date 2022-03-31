@@ -78,20 +78,10 @@ header{
     margin: 1em 0 3em 0;
 }
 
-@media all and (min-width: 1100px) {
-    .ms_banner{
-        padding-left: 2em;
-    }
-
-    .section-2,
-    .section-4{
-        padding: 0 2em;
-    }
-}    
-
 /* games */
-.section-2{
-    padding-top: 3em ;
+.section-2,
+.section-5{
+    padding-top: 3em;
     padding-bottom: 3em;
 } 
 
@@ -131,6 +121,29 @@ header{
     width: 100%;
 }
 
+/* accessories */
+.section-5 img{
+    width: 100%;
+}
+
+.section-5 p{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
 
 
 
+
+@media all and (min-width: 1100px) {
+    .ms_banner{
+        padding-left: 2em;
+    }
+
+    .section-2,
+    .section-4,
+    .section-5{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+}    
