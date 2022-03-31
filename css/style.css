@@ -53,6 +53,7 @@
 }
 
 /* MAIN */
+/* banner */
 .ms_banner{
     
     color: white;
@@ -76,3 +77,16 @@
         padding-left: 2em;
     }
 }
+
+/* games */
+.section-2{
+    padding: 3em 0;
+}
+
+.ms_games img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
