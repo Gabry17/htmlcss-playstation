@@ -1,8 +1,21 @@
+/* COMMON */
+.ms_ads{
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.ms_ads button{
+    border-radius: 50px;
+    margin: 1em 0 3em 0;
+}
+
 /* HEADER */
 /* top */
 header{
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 .ms_bg-color{
@@ -60,23 +73,15 @@ header{
 
 /* MAIN */
 /* banner */
-.ms_banner{
-    
-    color: white;
+.ms_returnal{
     background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-position: center;
     padding-top: 15em;
 }
 
-.ms_banner img{
+.ms_returnal img{
     width: 300px;
 }
 
-.ms_banner button{
-    border-radius: 50px;
-    margin: 1em 0 3em 0;
-}
 
 /* games */
 .section-2,
@@ -131,11 +136,23 @@ header{
     font-size: 1.5em;
 }
 
+/* ads */
+.ms_ittakestwo{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.ms_ittakestwo img{
+    width: 200px;
+    padding: 2em 0;
+}
+
+
 
 
 
 @media all and (min-width: 1100px) {
-    .ms_banner{
+    .ms_banner,
+    .ms_ads{
         padding-left: 2em;
     }
 
