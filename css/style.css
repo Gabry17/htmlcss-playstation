@@ -172,6 +172,49 @@ header{
     width: 100%;
 }
 
+.ms_text-PS4 h2{
+    font-size: 2.5em;
+}
+
+.ms_text-PS4 p{
+    font-size: 1.5em;
+    color: gray;
+}
+
+.ms_text-PS4 button{
+    border-radius: 40px;
+}
+
+/* playstation plus */
+
+.section-10{
+    background-color: lightgray;
+    margin-top: 5em;
+}
+
+.ms_img-logo img{
+    width: 70%;
+    padding-top: 2em;
+}
+
+.ms_img-plus img{
+    width: 100%;
+    
+}
+
+.section-10 p{
+    padding: 2em 0;
+}
+
+.ms_btn{
+    border-radius: 40px;
+    color: #0a79ef;
+}
+
+.ms_btn-plus{
+    padding-bottom: 2em;
+}
+
 
 
 
@@ -185,7 +228,8 @@ header{
     .section-4,
     .section-5,
     .section-7,
-    .section-9{
+    .section-9,
+    .section-10{
         padding-left: 2em;
         padding-right: 2em;
     }
