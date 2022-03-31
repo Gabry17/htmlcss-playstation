@@ -1,5 +1,52 @@
+/* HEADER */
+/* top */
+.ms_bg-color{
+    background-color: black;
+}
+
 .ms_logo{
     width: 100px;
     line-height: 40px;
     padding-right: 1em;
 }
+
+/* bottom */
+.ms_nav{
+    line-height: 80px;
+}
+
+.ms_nav-logo img{
+    height: 70px;
+
+}
+
+.ms_nav-icon i{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: .2em .5em;
+    font-size: 2em;
+    color: gray;
+}
+
+.ms_list-nav ul{
+    list-style: none;
+    color: gray;
+}
+
+.ms_list-nav li{
+    display: inline-block;
+    padding-left: .7em;
+}
+
+.ms_list-nav a,
+.ms_nav-search a,
+.ms_nav-search i{
+    text-decoration: none;
+    color: gray;
+}
+
+.ms_nav-search button{
+    border-radius: 50px;
+    margin: 0 1em;
+}
+
