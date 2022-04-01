@@ -55,7 +55,6 @@ header{
 /* column left */
 .ms_nav-logo img{
     height: 70px;
-
 }
 
 .ms_nav-icon i{
@@ -273,13 +272,14 @@ header{
 /* social */
 .section-13 h2{
     font-size: 3em;
+    margin-bottom: 2em;
 }
 
 /* FOOTER */
 footer{
     background-color: #0155ae;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
 }
 
 /* top */
