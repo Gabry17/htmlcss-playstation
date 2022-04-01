@@ -27,6 +27,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.ms_pd-lr,
+.ms_ads{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 /* HEADER */
 /* top */
 header{
@@ -177,6 +183,15 @@ header{
     background-color: blue;
 }
 
+.ms_hover{
+    opacity: .5;
+}
+
+.ms_hover:hover{
+    opacity: 1;
+    border-bottom: 3px solid blue;
+}
+
 /* ads */
 .ms_ittakestwo{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -321,14 +336,8 @@ footer i{
 }
 
 @media all and (min-width: 1100px) {
-    .ms_banner,
+    /* .ms_banner,
     .ms_ads{
         padding-left: 2em;
-    }
-
-    .ms_pd-lr{
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-
+    } */
 }    
