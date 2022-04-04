@@ -33,6 +33,27 @@ body{
     padding-right: 2em;
 }
 
+button:hover{
+    outline-offset: 2px;
+}
+
+.ms_btn-danger:hover{
+    outline: 2px solid red;
+}
+
+.ms_btn-dark:hover{
+    outline: 2px solid black;
+}
+
+.ms_btn-primary:hover{
+    outline: 2px solid blue;
+}
+
+.ms_btn-light:hover{
+    outline: 2px solid white;
+}
+
+
 /* HEADER */
 /* top */
 header{
